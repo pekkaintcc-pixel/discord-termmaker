@@ -1,0 +1,437 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Florida State RP Bot — Terms & Privacy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0d10;
+            color: #e6e8eb;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #11151a;
+            border-bottom: 1px solid #292e35;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #9da5ae;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px;
+            background: #0f1216;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 1px solid #292e35;
+        }
+
+        nav button {
+            border: 0;
+            border-radius: 8px;
+            padding: 11px 20px;
+            background: #5865f2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        nav button:hover {
+            background: #4752c4;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .document {
+            display: none;
+            background: #11151a;
+            border: 1px solid #292e35;
+            border-radius: 14px;
+            padding: 35px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+        }
+
+        .document.active {
+            display: block;
+        }
+
+        h2 {
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #bfc5cc;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: #c5cbd2;
+        }
+
+        ul {
+            margin: 10px 0 18px 25px;
+            color: #c5cbd2;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        .notice {
+            background: #191d23;
+            border-left: 4px solid #5865f2;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .date {
+            color: #8d96a0;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            color: #737b85;
+            font-size: 14px;
+        }
+
+        a {
+            color: #7289da;
+        }
+
+        @media (max-width: 600px) {
+            .document {
+                padding: 22px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌴 Florida State RP Bot</h1>
+    <p>Terms of Service & Privacy Policy</p>
+</header>
+
+<nav>
+    <button onclick="showDocument('terms')">
+        Terms of Service
+    </button>
+
+    <button onclick="showDocument('privacy')">
+        Privacy Policy
+    </button>
+</nav>
+
+<main>
+
+    <!-- TERMS OF SERVICE -->
+
+    <section id="terms" class="document active">
+
+        <h1>Terms of Service</h1>
+
+        <p class="date">
+            Last updated: [DATE]
+        </p>
+
+        <div class="notice">
+            By using the Florida State RP Bot, you agree to these
+            Terms of Service.
+        </div>
+
+        <h2>1. About the Bot</h2>
+
+        <p>
+            Florida State RP Bot is a Discord bot designed to provide
+            tools and automation for a fictional Florida State
+            roleplay community.
+        </p>
+
+        <p>
+            The bot may provide server-management features,
+            roleplay tools, moderation features, informational
+            commands, and other functionality.
+        </p>
+
+        <h2>2. Discord</h2>
+
+        <p>
+            This bot operates through Discord and is subject to
+            Discord's own Terms of Service and Community Guidelines.
+        </p>
+
+        <p>
+            Users are responsible for following Discord's rules
+            while using the bot.
+        </p>
+
+        <h2>3. Acceptable Use</h2>
+
+        <p>You agree not to use the bot to:</p>
+
+        <ul>
+            <li>Harass or threaten other users.</li>
+            <li>Attempt to damage or disrupt Discord servers.</li>
+            <li>Attempt to obtain unauthorized access to accounts.</li>
+            <li>Spam commands or intentionally overload the bot.</li>
+            <li>Use the bot for illegal activity.</li>
+            <li>Attempt to bypass security or permission systems.</li>
+            <li>Collect personal information without authorization.</li>
+        </ul>
+
+        <h2>4. Roleplay Content</h2>
+
+        <p>
+            The Florida State RP environment is fictional.
+            Government, monarchy, political, faction, and gang
+            elements are intended for roleplay purposes.
+        </p>
+
+        <p>
+            Fictional roleplay does not authorize harassment,
+            real-world threats, discrimination, or illegal activity.
+        </p>
+
+        <h2>5. Server Administration</h2>
+
+        <p>
+            Server administrators are responsible for configuring
+            the bot and deciding how it is used within their server.
+        </p>
+
+        <p>
+            The bot developer is not responsible for changes made
+            to a server by its administrators or moderators.
+        </p>
+
+        <h2>6. Availability</h2>
+
+        <p>
+            The bot is provided on an availability basis. Features
+            may be changed, suspended, or removed at any time.
+        </p>
+
+        <h2>7. Termination</h2>
+
+        <p>
+            Access to the bot may be restricted or terminated if
+            these Terms are violated or if the bot is being abused.
+        </p>
+
+        <h2>8. Changes</h2>
+
+        <p>
+            These Terms may be updated periodically. Continued use
+            of the bot after changes are published means you accept
+            the updated Terms.
+        </p>
+
+        <h2>9. Contact</h2>
+
+        <p>
+            Questions about these Terms can be sent to:
+        </p>
+
+        <p>
+            <strong>[YOUR EMAIL ADDRESS]</strong>
+        </p>
+
+    </section>
+
+
+    <!-- PRIVACY POLICY -->
+
+    <section id="privacy" class="document">
+
+        <h1>Privacy Policy</h1>
+
+        <p class="date">
+            Last updated: [DATE]
+        </p>
+
+        <div class="notice">
+            This Privacy Policy explains what information the
+            Florida State RP Bot may process while operating on
+            Discord.
+        </div>
+
+        <h2>1. Information We May Process</h2>
+
+        <p>
+            Depending on the features enabled by a server,
+            the bot may process information such as:
+        </p>
+
+        <ul>
+            <li>Discord user IDs.</li>
+            <li>Discord server IDs.</li>
+            <li>Discord channel IDs.</li>
+            <li>Discord role IDs.</li>
+            <li>Discord usernames and display names.</li>
+            <li>Bot command information.</li>
+        </ul>
+
+        <h2>2. Why Information Is Used</h2>
+
+        <p>
+            Information may be used to operate bot features,
+            manage permissions, respond to commands, provide
+            moderation functionality, and maintain server
+            configuration.
+        </p>
+
+        <h2>3. Message Content</h2>
+
+        <p>
+            The bot should only process message content when
+            required for a feature that uses it.
+        </p>
+
+        <p>
+            We do not intentionally use the bot to collect private
+            conversations or personal information unrelated to its
+            functionality.
+        </p>
+
+        <h2>4. Data Storage</h2>
+
+        <p>
+            [DESCRIBE WHETHER YOUR BOT STORES DATA.]
+        </p>
+
+        <p>
+            Example: "The bot does not permanently store message
+            content. Basic server configuration may be stored so
+            that bot settings continue to work."
+        </p>
+
+        <h2>5. Third Parties</h2>
+
+        <p>
+            The bot operates through Discord. Discord may independently
+            process information according to its own policies.
+        </p>
+
+        <h2>6. Data Requests</h2>
+
+        <p>
+            If you believe the bot has stored information associated
+            with you and you would like to request information about
+            that data, contact:
+        </p>
+
+        <p>
+            <strong>[YOUR EMAIL ADDRESS]</strong>
+        </p>
+
+        <h2>7. Security</h2>
+
+        <p>
+            Reasonable measures should be taken to protect stored
+            information. However, no online system can guarantee
+            absolute security.
+        </p>
+
+        <h2>8. Children's Privacy</h2>
+
+        <p>
+            The bot is not intended to knowingly collect personal
+            information from children in violation of applicable
+            laws.
+        </p>
+
+        <h2>9. Changes to This Policy</h2>
+
+        <p>
+            This Privacy Policy may be updated when the bot's
+            functionality or data practices change.
+        </p>
+
+        <h2>10. Contact</h2>
+
+        <p>
+            Privacy questions can be sent to:
+        </p>
+
+        <p>
+            <strong>[YOUR EMAIL ADDRESS]</strong>
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+    © [YEAR] Florida State RP Bot · Fictional Roleplay Project
+</footer>
+
+<script>
+    function showDocument(documentId) {
+
+        const documents =
+            document.querySelectorAll(".document");
+
+        documents.forEach(function(document) {
+            document.classList.remove("active");
+        });
+
+        document
+            .getElementById(documentId)
+            .classList.add("active");
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+
+</body>
+</html>
+```
